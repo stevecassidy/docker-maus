@@ -1,6 +1,8 @@
 Docker MAUS
 ===========
 
+[View on Docker Hub](https://hub.docker.com/r/stevecassidy/maus/)
+
 A docker container for MAUS (Munich AUtomatic Segmentation) forced alignment
 system.  This container makes it easier to run MAUS on non-linux platforms such
 as macOS and (probably) Windows.  It contains all of the required dependencies
@@ -40,4 +42,4 @@ docker run -v `pwd`:/export  stevecassidy/maus \
     LANGUAGE=aus
 ```
 
-All of the other scripts in MAUS should work too (maus.corpus, maus.iter etc). 
+All of the other scripts in MAUS should work too (maus.corpus, maus.iter etc).
