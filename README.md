@@ -17,7 +17,7 @@ test file included in the distribution.
 
 ```bash
 docker run -v `pwd`:/export stevecassidy/maus \
-    /home/maus/maus OUT=/export/test.TextGrid
+    /home/maus/maus OUT=/export/test.TextGrid \
     OUTFORMAT=TextGrid \
     SIGNAL=/home/maus/test.wav \
     BPF=/home/maus/test.par
